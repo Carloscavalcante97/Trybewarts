@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   padding: 0;
@@ -182,4 +183,68 @@ footer {
   bottom: 0;
   width: 100%;
   color: white;
+}
+@media (max-width: 425px) {
+  .header {
+    height: 60px; 
+  }
+#trybewarts-forms-logo{
+  width: 60%;
+}
+  #trybewarts-header-title {
+    padding-left: 0; 
+    text-align: center;
+  }
+
+  #entrar {
+    width: 60%; 
+  }
+
+  #email,
+  #senha {
+    width: 80%; 
+  }
+
+  #input-name,
+  #input-lastname,
+  #input-email,
+  #house {
+    width: 100%; 
+  }
+
+  .radio-group {
+    margin-bottom: 15px; 
+  }
+
+  .checkbox-group {
+    margin-top: 5px; 
+  }
+
+  .area-do-texto {
+    width: 90%; 
+  }
+
+  #counter {
+    bottom: 5px; 
+    left: auto;
+    right: 5px;
+  }
+
+  .info-agreement {
+    width: 100%; 
+    flex-direction: column; 
+  }
+
+  #agreement {
+    position: relative;
+    right: 0; 
+  }
+
+  #submit-btn {
+    padding: 10px; 
+  }
+
+  footer {
+    padding: 5px; 
+  }
 }
