@@ -8,7 +8,7 @@ function logarnosite() {
     alert("Email ou senha inválidos.");
   }
 }
-logarnosite();
+
 function enviarForm() {
   const name = document.getElementById("input-name").value;
   const lastname = document.getElementById("input-lastname").value;
@@ -84,4 +84,4 @@ const submitButton = document.getElementById("submit-btn");
 agreementCheckbox.addEventListener("change", () => {
   submitButton.disabled = !agreementCheckbox.checked;
 });
-enviarForm();
+
