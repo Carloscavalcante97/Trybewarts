@@ -15,7 +15,7 @@ function enviarForm() {
   const email = document.getElementById("input-email").value;
   const house = document.getElementById("house").value;
   if (!name || !lastname || !email || !house) {
-    alert("Por favor, preencha todos os campos.");
+  document.getElementById("submit-btn").disabled = true; ;
   } else {
     const formDataContainer = document.createElement("div");
     formDataContainer.id = "form-data";
