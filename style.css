@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: rgb(50, 167, 145);
+  display: flex;
+  justify-content: center;
+  height: 70px;
+}
+
+.trybewarts-login {
+  display: flex;
+  position: relative;
+  margin-left: 100px;
+  align-self: flex-start;
+}
+
+#trybewarts-header-title {
+  color: white;
+  align-content: center;
+  padding-left: 290px;
+}
+
+#entrar {
+  position: relative;
+  right: 40px;
+  width: 30%;
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  border-radius: 7px;
+  background-color: rgb(67, 35, 118);
+  color: white;
+}
+
+.trybewarts-header-logo {
+  margin-right: 190px;
+}
+
+#email {
+  position: relative;
+  left: 40px;
+  width: 60%;
+  padding: 6px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  border: 1px solid white;
+  border-radius: 7px;
+}
+
+#senha {
+  width: 60%;
+  padding: 6px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  border: 1px solid white;
+  border-radius: 7px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+}
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  width: 675px;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+.nome-sobrenome {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.email-casa {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#input-name {
+  flex: 1;
+  width: calc(60%);
+}
+
+#input-lastname {
+  flex: 1;
+  width: calc(60%);
+}
+
+#input-email {
+  flex: 1;
+  width: calc(40%);
+}
+
+#house {
+  flex: 1;
+  width: calc(40%);
+}
+
+.radio-group {
+  margin-bottom: 20px;
+}
+
+.radio-option {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.radio-option input {
+  margin-right: 5px;
+}
+
+.checkbox-group {
+  margin-top: 10px;
+}
+
+.checkbox-div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 5px;
+}
+
+#feedback {
+  width: 100%;
+  height: 100%;
+  resize: none;
+  overflow: hidden;
+  padding-right: 50px;
+}
+
+.area-do-texto {
+  width: 93%;
+  background-color: transparent;
+  color: black;
+}
+
+#counter {
+  position: relative;
+  bottom: 18px;
+  right: 5px;
+  left: 660px;
+  font-size: 12px;
+  color: black;
+}
+
+.info-agreement {
+  width: 90% - 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#agreement {
+  position: relative;
+  right: 330px;
+}
+
+#submit-btn {
+  width: 100%;
+  padding: 8px;
+  border-radius: 7px;
+  background-color: rgb(67, 35, 118);
+  color: white;
+}
+
+footer {
+  background-color: rgb(44, 49, 48);
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
